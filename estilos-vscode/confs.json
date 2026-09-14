@@ -1,0 +1,144 @@
+{
+  // nativas
+  "workbench.iconTheme": "vscode-icons",
+  "editor.wordWrap": "on",
+  "vsicons.presets.jsonOfficial": true,
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Omni",
+
+  // editor
+  "editor.wordWrapColumn": 100,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 25,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  // explorer
+  "explorer.compactFolders": false,
+
+  // workbench
+  "workbench.editor.enablePreview": true,
+  "workbench.colorCustomizations": {
+    "editor.background": "#15121d", // <-- Este hexadecimal muda a cor de fundo desejada
+    "sideBar.background": "#13121b", // <-- Daqui pra baixo muda as cores laterais
+    "activityBar.background": "#171620",
+    "activityBar.foreground": "#E1E1E6",
+    "activityBar.border": "#0f0f0f"
+  },
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.printWidth": 90,
+
+  // terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "liveServer.settings.port": 5502,
+  "vscodeGoogleTranslate.preferredLanguage": "Portuguese",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.autofetch": true,
+
+  // ↓ Configuração das cores de texto do VS Code ↓
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.other.attribute-name.class.css",
+        "settings": {
+          "foreground": "#55e213"
+        }
+      },
+      {
+        "scope": "support.type.property-name",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      },
+      {
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#e7e01cf5"
+        }
+      },
+      {
+        "scope": "keyword.other.unit",
+        "settings": {
+          "foreground": "#f8ad22"
+        }
+      },
+      {
+        "scope": "support.constant.property-value",
+        "settings": {
+          "foreground": "#e28b68"
+        }
+      },
+      {
+        "scope": "entity.name.tag.css",
+        "settings": {
+          "foreground": "#f4663b"
+        }
+      },
+      {
+        "scope": "entity.name.function.js",
+        "settings": {
+          "foreground": "#3ef43b"
+        }
+      },
+      {
+        "scope": "storage.type.function.js",
+        "settings": {
+          "foreground": "#3bc3f4"
+        }
+      },
+      {
+        "scope": "variable.other.constant.object.js",
+        "settings": {
+          "foreground": "#e08bcc"
+        }
+      },
+      {
+        "scope": "entity.name.function.member",
+        "settings": {
+          "foreground": "#d9d976"
+        }
+      },
+      {
+        "scope": "string.quoted.single.js",
+        "settings": {
+          "foreground": "#e16640"
+        }
+      },
+      {
+        "scope": "support.variable.js",
+        "settings": {
+          "foreground": "#e0f1fc"
+        }
+      },
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "foreground": "#ae4ce7"
+        }
+      }
+    ]
+  },
+
+  "diffEditor.hideUnchangedRegions.enabled": true
+
+  // caso mude alguma cor, anote a que estava primeiro pra não perder a que estava antes.
+}

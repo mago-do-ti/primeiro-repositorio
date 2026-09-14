@@ -8,7 +8,7 @@ h1 {
 }
 
 .estilo-de-um-elemento-em-uma-classe {
-  color: hsl(56, 100%, 50%)
+  color: hsl(56, 100%, 50%);
 }
 
 /* hue, saturation, lightness > matiz, saturação, luminosidade */
