@@ -1,18 +1,18 @@
 FIZ ESTE PASSO A PASSO PARA A CRIAÇÃO DE UM SNAKEGAME NO PERFIL DO GITHUB
 
-#################################################
-# Caminho para criar o repositório corretamente #
-#################################################
+#####################################################
+### Caminho para criar o repositório corretamente ###
+#####################################################
 > foto de perfil > Repositories > New > seu mesmo nome de usuário (ex.: mago-do-ti) > em Add readme clique no botão off para ficar on > role para baixo > Create repository
 
-#############################################################################
-# Caminho para criar as pastas e o arquivo yml dentro do repositório criado #
-#############################################################################
+#################################################################################
+### Caminho para criar as pastas e o arquivo yml dentro do repositório criado ###
+#################################################################################
 > Botão + ou Add File (do lado do botão verde com o nome Code) > Create new file > no campo Name your file copie e cole isso: .github/workflows/snake.yml
 
-##############################################################
-# Caminho para criar, salvar e executar o código da cobrinha #
-##############################################################
+##################################################################
+### Caminho para criar, salvar e executar o código da cobrinha ###
+##################################################################
 +--------------------------------------------------------------------------------------------+
 | Copie o código abaixo e cole no editor de texto do arquivo snake.yml e substitua onde está |
 | escrito seu-nome-de-usuario pelo seu nome de usuário do GitHub (ex.: mago-do-ti):          |
@@ -109,9 +109,9 @@ Essa é a tabulação correta de cada linha em relação ao marco zero da linha 
 
 - E para ver o resultado, clique na sua foto de perfil, clique em profile e espere uns 2 ou 3 minutos para apertar F5 e recarregar a página .
 
-##################################################################################
-# Caso queira editar as cores é só editar o arquivo snake.yml da seguinte forma: #
-##################################################################################
+######################################################################################
+### Caso queira editar as cores é só editar o arquivo snake.yml da seguinte forma: ###
+######################################################################################
 Na aba Code de seu repositório siga o seguinte caminho para editar o arquivo snake.yml
 > .github/workflows > snake.yml > [Ícone de lápis] > agora edite os valores da linha de código depois de onde está escrito outputs: |
 
